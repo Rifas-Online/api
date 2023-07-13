@@ -95,7 +95,6 @@ export class AuthService {
 
 	// TODO: Implementar reset
 	async reset(password: string, token: string) {
-		console.log(token);
 		return password;
 	}
 
